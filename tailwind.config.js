@@ -8,6 +8,7 @@ export default {
       },
       colors: {
         primary: "#18C7FF",
+        yellow: "#FFE900"
       },
     },
   },

@@ -1,7 +1,17 @@
 import React from "react";
 
-const LvlBlock = () => {
-  return <div className="h-1.5 bg-primary w-6"></div>;
+const LvlBlock = ({ color, height, width, rounded, shadow }) => {
+  return (
+    <div
+      style={{
+        backgroundColor: color,
+        height: height,
+        width: width,
+        borderRadius: rounded,
+        boxShadow: shadow,
+      }}
+    ></div>
+  );
 };
 
 export default LvlBlock;

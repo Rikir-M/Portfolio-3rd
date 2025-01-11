@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "./Button";
+import Projects from "../assets/Projects.svg";
 
 const ButtonSection = () => {
   const buttons = [
@@ -7,23 +8,23 @@ const ButtonSection = () => {
       id: 1,
       icon: "",
       text: "Skills",
-      onClick: () => console.log("Skills clicked"),
+      // navigateTo:"/skills"
     },
     {
       id: 2,
-      icon: "",
+      icon: <img src={Projects} alt="Projects icon" className="shadow-lg w-[80px]"/>,
       text: "Projects",
-      onClick: () => console.log("Projects clicked"),
+      // navigateTo:"/projects"
     },
     {
       id: 3,
       icon: "",
-      text: "Something",
-      onClick: () => console.log("Something clicked"),
+      text: "Credits",
+      navigateTo:"/credits"
     },
   ];
   return (
-    <div className="relative w-1/3 h-1/2 flex items-center justify-center right-[5%] top-1/4 ml-auto">
+    <div className="relative w-1/3 h-1/2 flex items-center justify-center top-1/4 ml-auto">
       {buttons.map((button, index) => (
         <div
           key={button.id}
@@ -36,7 +37,7 @@ const ButtonSection = () => {
           <Button
             icon={button.icon}
             text={button.text}
-            onClick={button.onClick}
+            navigateTo={button.navigateTo}
           />
         </div>
       ))}
