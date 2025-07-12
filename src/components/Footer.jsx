@@ -9,6 +9,7 @@ const Footer = () => {
           href="https://honkaiimpact3.hoyoverse.com"
           target="_blank"
           rel="noopener noreferrer"
+          className="text-primary text-base"
         >
           Honkai Impact 3rd
         </a>

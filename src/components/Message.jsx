@@ -38,7 +38,7 @@ const Message = () => {
       ref={messageBoxRef}
       className={`${
         isExpanded ? "h-[85%]" : "h-10"
-      } w-1/3 bg-[rgba(0,0,0,0.359)] border border-[rgba(255,255,255,0.359)] absolute bottom-[3%] transition-all duration-300`}
+      } w-[25%] bg-[rgba(0,0,0,0.359)] border border-[rgba(255,255,255,0.359)] absolute bottom-[3%] transition-all duration-300 z-10`}
       onClick={isExpanded ? null : handleExpand}
     >
       {isExpanded && messages.length <= 0 && (

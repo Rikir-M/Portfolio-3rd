@@ -18,7 +18,7 @@ const Credits = () => {
             text={"BACK"}
           />
         </div>
-        <div className="h-[88%] w-1/2 mx-auto text-white overflow-hidden overflow-y-scroll custom-scrollbar">
+        <div className="h-[88%] lg:w-2/3 mx-auto text-white overflow-hidden overflow-y-scroll shadow-lg rounded-2xl p-6 glassy-card custom-scrollbar">
           <h1 className="text-center text-3xl">Credits</h1>
           <p className="py-5">
             This project includes design elements and assets inspired by{" "}

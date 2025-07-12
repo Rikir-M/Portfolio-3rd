@@ -1,11 +1,10 @@
 import React from "react";
 import SubButton from "../components/SubButton";
 import Back from "../assets/Back.svg";
-import CaptainProfile from "../components/CaptainProfile";
+import ResumePart from "../components/ResumePart";
 import AboutBtns from "../components/AboutBtns";
-import Mei from "../assets/Aqueous_Springtide.webp";
 
-const About = () => {
+const Resume = () => {
   return (
     <div className="background h-screen bg-center bg-cover">
       <div className="h-screen px-[5%] py-3 backdrop-blur-xl">
@@ -19,17 +18,13 @@ const About = () => {
             text={"BACK"}
           />
         </div>
-        <img className="absolute left-[-6%] h-available" src={Mei} alt="" />
-        <div className="w-full lg:h-[85%] flex lg:justify-center lg:items-center">
-          <div className="flex w-2/3">
-            <div className="flex-1"></div>
-            <CaptainProfile />
-          </div>
-          <AboutBtns active="rikir" />
+        <div className="flex sm:justify-center sm:items-center h-[85%]">
+          <ResumePart />
+          <AboutBtns active="resume" />
         </div>
       </div>
     </div>
   );
 };
 
-export default About;
+export default Resume;
