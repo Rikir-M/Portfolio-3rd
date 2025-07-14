@@ -3,7 +3,7 @@ import SubButton from "../components/SubButton";
 import Back from "../assets/Back.svg";
 import CaptainProfile from "../components/CaptainProfile";
 import AboutBtns from "../components/AboutBtns";
-import Mei from "../assets/Aqueous_Springtide.webp";
+import Mei from "../../public/Aqueous_Springtide.webp";
 
 const About = () => {
   return (
@@ -19,7 +19,7 @@ const About = () => {
             text={"BACK"}
           />
         </div>
-        <img className="absolute left-[-6%] h-available" src={Mei} alt="" />
+        <img className="absolute left-[-6%] h-available" src={Mei} alt="" loading="lazy" />
         <div className="w-full lg:h-[85%] flex lg:justify-center lg:items-center">
           <div className="flex w-2/3">
             <div className="flex-1"></div>

@@ -10,12 +10,12 @@ body {
 }
 
 .background {
-  background-image: url("./assets/Background.webp");
+  background-image: url("../public/Background.webp");
   /* color: rgba(255, 255, 255, 0.359); */
 }
 
 .btn {
-  background-image: url("./assets/Button-bg.webp");
+  background-image: url("../public/Button-bg.webp");
 }
 
 .glassy-card {

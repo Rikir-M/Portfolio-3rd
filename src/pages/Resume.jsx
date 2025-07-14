@@ -7,7 +7,7 @@ import AboutBtns from "../components/AboutBtns";
 const Resume = () => {
   return (
     <div className="background h-screen bg-center bg-cover">
-      <div className="h-screen px-[5%] py-3 backdrop-blur-xl">
+      <div className="h-screen px-[5%] py-3 backdrop-blur-2xl">
         <div className="nav">
           <SubButton
             bgColor={"#FFE900"}
