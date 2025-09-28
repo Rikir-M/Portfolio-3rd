@@ -1,6 +1,6 @@
 import React from "react";
 import SubButton from "../components/SubButton";
-import Back from "../assets/Back.svg";
+import Back from "../assets/icons/Back.svg";
 import ResumePart from "../components/ResumePart";
 import AboutBtns from "../components/AboutBtns";
 

@@ -1,14 +1,15 @@
 import React from "react";
 import Button from "./Button";
-import Projects from "../assets/Projects.svg";
+import Projects from "../assets/icons/Projects.svg";
+import Skills from "../assets/icons/Skills V2.svg"
 
 const ButtonSection = () => {
   const buttons = [
     {
       id: 1,
-      icon: "",
+      icon: <img src={Skills} alt="Skills icon" className="shadow-lg w-[80px]"/>,
       text: "Skills",
-      // navigateTo:"/skills"
+      navigateTo:"/skills"
     },
     {
       id: 2,

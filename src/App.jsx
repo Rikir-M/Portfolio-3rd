@@ -7,6 +7,7 @@ import Credits from "./pages/Credits";
 import Resume from "./pages/Resume";
 import { useEffect, useState } from "react";
 import NotResponsive from "./components/NotResponsive";
+import Skills from "./pages/Skills";
 
 function App() {
   const [isSmallScreen, setIsSmallScreen] = useState(false);
@@ -33,6 +34,7 @@ function App() {
         <Route path="/about-rikir" element={<About />} />
         <Route path="/resume" element={<Resume />} />
         <Route path="/credits" element={<Credits />} />
+        <Route path="/skills" element={<Skills />} />
       </Routes>
       <Footer />
     </div>

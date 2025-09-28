@@ -1,8 +1,8 @@
 import React from "react";
 import SubButton from "../components/SubButton";
-import Back from "../assets/Back.svg";
-import BackgroundImg from "../../public/Background.webp";
-import ButtonImg from "../../public/Button-bg.webp";
+import Back from "../assets/icons/Back.svg";
+import BackgroundImg from "../assets/Background.webp";
+import ButtonImg from "../assets/Button-bg.webp";
 
 const Credits = () => {
   return (

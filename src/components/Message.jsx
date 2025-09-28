@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import MessageIcon from "../assets/Message.svg";
+import MessageIcon from "../assets/icons/Message.svg";
 
 const Message = () => {
   const [isExpanded, setIsExpanded] = useState(false);

@@ -20,7 +20,7 @@ const AboutBtns = ({ active }) => {
         <SubButton
           bgColor={active === "hobbies" ? "#FFFFFF" : "#18C7FF"}
           color={active === "hobbies" ? "#000000" : "#FFFFFF"}
-          navigateTo="/hobbies"
+          // navigateTo="/hobbies"
           text="Hobbies"
         />
       </div>

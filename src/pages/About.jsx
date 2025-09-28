@@ -1,9 +1,9 @@
 import React from "react";
 import SubButton from "../components/SubButton";
-import Back from "../assets/Back.svg";
+import Back from "../assets/icons/Back.svg";
 import CaptainProfile from "../components/CaptainProfile";
 import AboutBtns from "../components/AboutBtns";
-import Mei from "../../public/Aqueous_Springtide.webp";
+import Mei from "../assets/Aqueous_Springtide.webp";
 
 const About = () => {
   return (
