@@ -1,8 +1,43 @@
-# React + Vite
+# Captain on bridge!
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This isn’t the Hyperion, but my portfolio. It’s inspired by **Honkai Impact 3rd**, so expect more flair than your average “here’s-my-resume-dot-com.”
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features  
+
+- **Lobby-inspired design** - Feels like you’re logging into HI3, but instead of your waifu waiting for you, you get… me.
+- **Chat system (WIP):**
+  - Dev log feed (maybe??)
+  - Guestbook (drop a “hi Captain!”)
+- **My avatar** - Drawn by a friend, because real Captains have a support squad.
+
+---
+
+## 🛠️ Tech Stack
+
+- **React + Vite** - Fast enough to rival Herrscher speed
+- **Tailwind** - Because CSS without it is like going into Abyss with only a 3★ weapon
+- **Three.js** - Because, well, 3D...
+- **GSAP** - Look forward to animations!
+- **Backend plans** - For guestbook storage (coming soon™)
+
+---
+
+## 🛣️ Roadmap
+
+- Finish the chat system.
+- Add a 3D me on the lobby, a few simple animations too.
+- Add a virtual pet (Ai-chan of my portfolio).
+- More interactive UI bits.
+- Secret easter eggs (if you find them, you’re officially squad material).
+
+---
+
+## 💡 Notes  
+
+- No crystals required.  
+- Gacha luck not included.  
+- This project is for fun and portfolio purposes, not affiliated with miHoYo/HoYoverse.
+
+---
