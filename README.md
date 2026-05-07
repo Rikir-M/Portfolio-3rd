@@ -1,30 +1,30 @@
 # Captain on bridge!
 
-This isn’t the Hyperion, but my portfolio. It’s inspired by **Honkai Impact 3rd**, so expect more flair than your average “here’s-my-resume-dot-com.”
+This isn’t the Hyperion, but my portfolio. It’s inspired by **Honkai Impact 3rd** (ovbiously).”
 
 ---
 
-## ✨ Features  
+## Features  
 
 - **Lobby-inspired design** - Feels like you’re logging into HI3, but instead of your waifu waiting for you, you get… me.
 - **Chat system (WIP):**
   - Dev log feed (maybe??)
   - Guestbook (drop a “hi Captain!”)
-- **My avatar** - Drawn by a friend, because real Captains have a support squad.
+- **My avatar** - Drawn by a friend.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
-- **React + Vite** - Fast enough to rival Herrscher speed
-- **Tailwind** - Because CSS without it is like going into Abyss with only a 3★ weapon
-- **Three.js** - Because, well, 3D...
-- **GSAP** - Look forward to animations!
+- **React + Vite**
+- **Tailwind**
+- **Three.js**
+- **GSAP**
 - **Backend plans** - For guestbook storage (coming soon™)
 
 ---
 
-## 🛣️ Roadmap
+## Roadmap
 
 - Finish the chat system.
 - Add a 3D me on the lobby, a few simple animations too.
@@ -34,7 +34,7 @@ This isn’t the Hyperion, but my portfolio. It’s inspired by **Honkai Impact 
 
 ---
 
-## 💡 Notes  
+## Notes  
 
 - No crystals required.  
 - Gacha luck not included.  
